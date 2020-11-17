@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+table, th, td {
+  border: 1px solid grey;
+}
+table {
+  width: 80%;
+}
+
+ul.a{
+  list-style-type: square;
+}
+
+ol start="iv"{
+  list-style-type: lower-roman;
+}
+
+</style>
+</head>
+<body>
+
+<h2><center>Table and List</center></h2>
+
+<table>
+  <tr>
+    <th>NO</th>
+    <th>Item</th>
+    <th>Info</th>
+  </tr>
+ 
+ <tr>
+    <td>1.</td>
+    <td><ul class="a">
+  <li>Books</li>
+    <ol>
+      <li>Malaysia</li>
+      <li>Indonesia</li>
+      <li>Singapore</li>
+    </ol>  
+    <li> Maps</li>
+    <td>Label 2</td>
+</ul></td>
+  </tr>
+  
+  <tr>
+    <td>2.</td>
+    <td><ol type="i" start="4">
+  <li>Hello</li>
+  <li>Hai</li>
+  <li>Test</li>
+</ol>
+</td>
+    <td>Label 10</td>
+  </tr>
+  
+</table>
+
+</body>
+</html>
