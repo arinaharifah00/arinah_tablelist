@@ -14,9 +14,6 @@ ul.a{
   list-style-type: square;
 }
 
-ol start="iv"{
-  list-style-type: lower-roman;
-}
 
 </style>
 </head>
@@ -35,7 +32,7 @@ ol start="iv"{
     <td>1.</td>
     <td><ul class="a">
   <li>Books</li>
-    <ol>
+    <ol type="1">
       <li>Malaysia</li>
       <li>Indonesia</li>
       <li>Singapore</li>
